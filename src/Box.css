@@ -1,3 +1,19 @@
 .Box {
-    border: black solid 2px;
+    border: black dashed 2px;
+    position: relative;
+    margin: 50px;
+    display: inline-block;
+}
+
+.removeDiv {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.removeButton {
+    border-radius: 50%;
 }
